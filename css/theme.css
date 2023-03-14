@@ -1,8 +1,4 @@
-/*
-Name: 			theme.css
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.4.0
-*/
+
 @media (prefers-reduced-motion: no-preference) {
 	:root {
 		scroll-behavior: smooth;
@@ -161,7 +157,7 @@ pre {
 	position: relative;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	#header .container {
 		width: 100%;
 	}
@@ -425,7 +421,7 @@ pre {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	#header .header-nav-top .nav > li.nav-item-left-border-remove.d-none {
 		margin-left: 0;
 		padding-left: 0;
@@ -455,7 +451,7 @@ pre {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	#header .header-nav-top .nav > li.nav-item-left-border.nav-item-left-border-md-show:after {
 		content: '';
 	}
@@ -600,7 +596,7 @@ pre {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	#header .header-nav-features.header-nav-features-md-show-border:before, #header .header-nav-features.header-nav-features-md-show-border:after {
 		content: '';
 	}
@@ -945,7 +941,7 @@ pre {
 	padding: 35px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	#header .header-nav-features .header-nav-features-user .header-nav-features-dropdown {
 		min-width: 320px;
 	}
@@ -4318,7 +4314,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 }
 
-@media (max-height: 768px) {
+@media (max-height: 640px) {
 	html.side-header #header .header-nav-main nav > ul > li.dropdown.open > .dropdown-menu,
 		html.side-header #header .header-nav-main nav > ul > li.dropdown.accessibility-open > .dropdown-menu,
 		html.side-header #header .header-nav-main nav > ul > li.dropdown:hover > .dropdown-menu {
@@ -5181,7 +5177,7 @@ h6 .inverted {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.mb-md-0 {
 		margin-bottom: 0 !important;
 	}
@@ -5604,7 +5600,7 @@ h6 .inverted {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 		/* Padding */
 	.pt-md-3-5 {
 		padding-top: 0.75rem !important;
@@ -6362,7 +6358,7 @@ h6 .inverted {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.text-md-0 {
 		font-size: .7em !important;
 	}
@@ -6803,7 +6799,7 @@ h6 .inverted {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.line-height-md-initial {
 		line-height: initial !important;
 	}
@@ -7142,7 +7138,7 @@ h6 .inverted {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.columns-md-2 {
 		-moz-columns: 2 !important;
 		columns: 2 !important;
@@ -7946,7 +7942,7 @@ a.text-light:focus, a.text-light:hover {
 	border-width: 10px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.border-sm-none {
 		border: 0 !important;
 	}
@@ -8017,7 +8013,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.w-md-auto {
 		width: auto !important;
 	}
@@ -8159,7 +8155,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.fluid-col-md-6 {
 		min-height: 33vw;
 	}
@@ -8201,7 +8197,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.fluid-col-md-6 {
 		min-height: 64.5vw !important;
 	}
@@ -8299,7 +8295,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.col-md-1-5 {
 		flex: 0 0 20%;
 		max-width: 20%;
@@ -8865,7 +8861,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.col-md-pull-12 {
 		margin-left: -100%;
 	}
@@ -10025,7 +10021,7 @@ a.text-light:focus, a.text-light:hover {
 	left: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	#footer .footer-nav.footer-nav-bottom-line nav > ul > li > a:before {
 		content: "";
 		position: absolute;
@@ -10058,7 +10054,7 @@ a.text-light:focus, a.text-light:hover {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	#footer .footer-nav {
 		width: 100%;
 	}
@@ -10289,7 +10285,7 @@ a.text-light:focus, a.text-light:hover {
 	width: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.map-above .map-above-map {
 		position: relative;
 	}
@@ -11356,7 +11352,7 @@ html.boxed .footer-reveal {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 		/* Boxed */
 	html.boxed {
 		background: none !important;

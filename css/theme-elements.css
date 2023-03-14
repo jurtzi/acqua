@@ -3211,7 +3211,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	display: block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.call-to-action {
 		padding: 10px 10px;
 	}
@@ -3238,7 +3238,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.call-to-action > [class*="col-"]:nth-child(2) {
 		justify-content: center;
 	}
@@ -3259,13 +3259,13 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.call-to-action .container > .row > [class*="col-"]:nth-child(2), .call-to-action .container-fluid > .row > [class*="col-"]:nth-child(2) {
 		justify-content: center;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.call-to-action > [class*="col-"]:not([class*="col-xs"]) {
 		width: 100%;
 	}
@@ -3439,7 +3439,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.call-to-action .call-to-action-content,
 		.call-to-action .call-to-action-btn {
 		margin: 0;
@@ -4161,7 +4161,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.owl-carousel.nav-style-4 .owl-nav .owl-prev {
 		left: 13px;
 	}
@@ -4177,7 +4177,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.owl-carousel.nav-style-4 .owl-nav .owl-next {
 		right: 13px;
 	}
@@ -4641,14 +4641,14 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	}
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 639px) {
 	.owl-carousel.show-dots-sm .owl-dots {
 		opacity: 1 !important;
 		visibility: visible !important;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 991px) {
 	.owl-carousel.show-dots-md .owl-dots {
 		opacity: 1 !important;
 		visibility: visible !important;
@@ -4765,7 +4765,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.carousel-half-full-width-wrapper > .owl-carousel {
 		width: calc( 100vw - ( ( 100vw - 720px ) / 2 ));
 	}
@@ -4995,7 +4995,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	padding: 1.5rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.countdown {
 		flex-wrap: wrap;
 	}
@@ -8178,7 +8178,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 }
 
 .form-style-5 .form-control:focus {
-	border-color: #676767;
+	border-color: #663967;
 }
 
 /* Floating Labels */
@@ -8801,7 +8801,7 @@ h6.text-shadow {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	h1.big {
 		font-size: 3.2em;
 		line-height: 42px;
@@ -11195,7 +11195,7 @@ html body .rounded-circle {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 	.h-md-50px {
 		height: 50px;
 	}
@@ -11884,7 +11884,7 @@ html body .rounded-circle {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.col-half-section {
 		max-width: 540px;
 	}
@@ -12775,7 +12775,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 	transform: translate3d(0, -50%, 0);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.style-switcher-open-loader {
 		display: none;
 	}
@@ -12809,7 +12809,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 	max-height: 16px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.envato-buy-redirect, .demos-redirect {
 		display: none;
 	}
@@ -13444,7 +13444,7 @@ html.boxed .nav-secondary.sticky-active {
 	right: calc(100% + 10px);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.section-scroll-dots-navigation {
 		right: 15px;
 	}
@@ -13758,7 +13758,7 @@ html.boxed .nav-secondary.sticky-active {
 	margin-bottom: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.pricing-table .plan.plan-featured {
 		transform: scale(1);
 	}
@@ -15366,7 +15366,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	transform: translate3d(0, -50%, 0) rotate(135deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
 	.tparrows.arrows-style-2 {
 		display: none;
 	}
@@ -15947,7 +15947,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.isotope-item {
 		position: static !important;
 		text-align: center;
@@ -16670,7 +16670,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	border: 1px solid #ebebeb;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.responsive-tabs-container.accordion-xs .nav-tabs {
 		display: none;
 	}
@@ -16680,7 +16680,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 991px) {
 	.responsive-tabs-container.accordion-sm .nav-tabs {
 		display: none;
 	}
@@ -17141,7 +17141,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	color: #212529 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	.testimonial.testimonial-with-quotes.testimonial-with-quotes-mobile-remove blockquote:before, .testimonial.testimonial-with-quotes.testimonial-with-quotes-mobile-remove blockquote:after {
 		content: none;
 	}
@@ -18161,7 +18161,7 @@ section.timeline .timeline-box .owl-carousel {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 	section.timeline {
 		width: 100%;
 		margin: 0;
@@ -19580,7 +19580,7 @@ section.section-custom-map section.section {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
 		/* Home Intro */
 	.home-intro-compact {
 		margin-left: 0;
