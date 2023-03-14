@@ -391,7 +391,7 @@ window.theme.fn = {
 			setTimeout(function() {
 
 				var target = window.location.hash,
-					offset = ( $(window).width() < 768 ) ? 180 : 90;
+					offset = ( $(window).width() < 640 ) ? 180 : 90;
 
 				if (!$(target).length) {
 					return;
@@ -759,12 +759,12 @@ window.theme.fn = {
 			}
 
 			// SM
-			if( $window.width() > 575 && $window.width() < 768 ) {
+			if( $window.width() > 575 && $window.width() < 640 ) {
 				$this.height( values[3] );
 			}
 
 			// MD
-			if( $window.width() > 767 && $window.width() < 992 ) {
+			if( $window.width() > 639 && $window.width() < 992 ) {
 				$this.height( values[2] );
 			}
 
@@ -2842,7 +2842,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 		accY: -80,
 		delay: 100,
 		duration: '750ms',
-		minWindowWidth: 767,
+		minWindowWidth: 639,
 		forceAnimation: false,
 		flagClassOnly: false
 	};
@@ -3008,7 +3008,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 		animationName: 'fadeIn',
 		animationSpeed: 50,
 		startDelay: 500,
-		minWindowWidth: 768,
+		minWindowWidth: 640,
 		letterClass: ''
 	};
 
@@ -3613,7 +3613,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 			479: {
 				items: 1
 			},
-			768: {
+			640: {
 				items: 2
 			},
 			979: {
@@ -4706,7 +4706,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 				$el.attr('style', self.options.style);
 			}
 
-			if( $window.width() > 767 ) {
+			if( $window.width() > 639 ) {
 
 				// Set Start Position
 				if( self.options.startPos == 'none' ) {
@@ -5419,7 +5419,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 					}
 
 					// Animated
-					if( self.options.animated && $(window).width() > 767 ) {
+					if( self.options.animated && $(window).width() > 639 ) {
 						
 						// First Load
 						if( $el.visible( true ) ) {
@@ -10436,7 +10436,7 @@ if( $('[data-copy-to-clipboard]').length ) {
 							}
 							
 							// Hash Offset MD
-							if ($this.is("[data-hash-offset-md]") && windowWidth > 768) {
+							if ($this.is("[data-hash-offset-md]") && windowWidth > 640) {
 								offset = $this.data('hash-offset-md');
 							}
 							
